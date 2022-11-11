@@ -210,30 +210,35 @@ $(window).on("load", function () {
 // Store Semester Recap data
 const sem_temp = [
   {
-    event_name: "Chemistry Lab",
-    event_type: "Mentorship",
-    event_image: "chemistrymentee.jpg",
+    event_name: "Mumbai",
+    event_type: "Travel",
+    event_image: "mumbai.jpg",
   },
   {
-    event_name: "User Experience",
-    event_type: "Summer Research",
-    event_image: "uxresearch.jpg",
+    event_name: "Pune",
+    event_type: "Travel",
+    event_image: "man.jpg",
   },
-  {
-    event_name: "UX Team",
-    event_type: "Happy Hours",
-    event_image: "teamcamping.jpg",
-  },
-  {
-    event_name: "Orientation",
-    event_type: "Keynote",
-    event_image: "groomingspeech.jpg",
-  },
-  {
-    event_name: "Graduation",
-    event_type: "Ceremony",
-    event_image: "graduation.jpg",
-  },
+  // {
+  //   event_name: "User Experience",
+  //   event_type: "Summer Research",
+  //   event_image: "uxresearch.jpg",
+  // },
+  // {
+  //   event_name: "UX Team",
+  //   event_type: "Happy Hours",
+  //   event_image: "teamcamping.jpg",
+  // },
+  // {
+  //   event_name: "Orientation",
+  //   event_type: "Keynote",
+  //   event_image: "groomingspeech.jpg",
+  // },
+  // {
+  //   event_name: "Graduation",
+  //   event_type: "Ceremony",
+  //   event_image: "graduation.jpg",
+  // },
 ];
 
 // Select content div

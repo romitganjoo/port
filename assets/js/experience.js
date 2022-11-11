@@ -9,35 +9,35 @@ const exp = [
     cardImage: "assets/images/experience-page/starbucks.png",
     place: "Starbucks",
     time: "(Aug, 2022 - Present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Making the best Macchiatos since 2022.</li><li>Preparing and serving hot and cold drinks such as coffee, tea, artisan and speciality beverages.</li> <li>Servicing customers and taking orders.</li>",
   },
   {
     title: "Database Admin",
     cardImage: "assets/images/experience-page/Cognizant.webp",
     place: "Cognizant Technology Solutions",
     time: "(Aug, 2021 - July, 2022)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Managed inventories and O2C cycles for the client using Oracle e-business suite.</li> <li>Implemented patches, backups and restore on organization OracleR12 databases.</li> <li>Executed SQL queries on relational databases to extract information.</li>",
   },
   {
     title: "Enterprise Application Services Intern",
     cardImage: "assets/images/experience-page/Cognizant.webp",
     place: "Cognizant Technology Solutions",
     time: "(Jan, 2021 - April, 2021)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Handled the generation of XML reports using Oracle E-Business Suite and BI Publisher.</li><li>Designed business activities and processes using Oracle Workflow Builder.</li>",
   },
   {
     title: "Machine Learning Intern",
     cardImage: "assets/images/experience-page/tm.png",
     place: "Tech Mahindra",
     time: "(Nov, 20 - Jan, 21)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Implemented a Sanskrit – English Chat-Bot.</li><li>Worked on Sanskrit data collection to train a multiple regression model.</li>",
   },
   {
     title: "Research Assistant",
     cardImage: "assets/images/experience-page/mit.png",
     place: "Maharashtra Institute of Technology",
     time: "(Jul, 20 - Aug, 21)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp: "<li>Wroked with Prof. Anjali Purohit on multiple research projects.</li><li>Performed various tasks including conducting literature reviews and collect and analyze data.</li><li>Conducted research work got accepted into multiple IEEE conferences.</li>",
   },
 ];
 
@@ -76,29 +76,24 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "TedX-MITP",
+    cardImage: "assets/images/experience-page/tedx.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Organized logistics of event preparation, including location scouting and program implementation.",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Shutterbugs",
+    cardImage: "assets/images/experience-page/sb.jfif",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Efficiently and effectively managed a team of 13 photographers to cover college events.",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "Bhartiya Chhatra Sansad",
+    cardImage: "assets/images/experience-page/bcs.jpg",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Led the photography team and determined appropriate levels of staffing and budget to stay within given monetary parameters.",
   },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
+  
 ];
 
 const showCards = () => {
