@@ -12,18 +12,18 @@ const exp = [
     desp: "<li>Making the best Macchiatos since 2022.</li><li>Preparing and serving hot and cold drinks such as coffee, tea, artisan and speciality beverages.</li> <li>Servicing customers and taking orders.</li>",
   },
   {
-    title: "Database Admin",
+    title: "Web Developer",
     cardImage: "assets/images/experience-page/Cognizant.webp",
     place: "Cognizant Technology Solutions",
     time: "(Aug, 2021 - July, 2022)",
-    desp: "<li>Managed inventories and O2C cycles for the client using Oracle e-business suite.</li> <li>Implemented patches, backups and restore on organization OracleR12 databases.</li> <li>Executed SQL queries on relational databases to extract information.</li>",
+    desp: "<li>Worked on a Banking project, developed and tested Core Banking System (CBS) Web Application and implemented new features as requested by the client using HTML, CSS, JavaScript.</li> <li>Responsible for maintaining the database using SQL Database Management.</li> <li>Responsible for finding vulnerabilities in the CBS application and ensuring smooth deployment of new features into the production.</li><li>Optimized User Interface and developed user friendly interface.</li>",
   },
   {
-    title: "Enterprise Application Services Intern",
+    title: "Web Developer Intern",
     cardImage: "assets/images/experience-page/Cognizant.webp",
     place: "Cognizant Technology Solutions",
     time: "(Jan, 2021 - April, 2021)",
-    desp: "<li>Handled the generation of XML reports using Oracle E-Business Suite and BI Publisher.</li><li>Designed business activities and processes using Oracle Workflow Builder.</li>",
+    desp: "<li>Developed and maintained basic web applications using a variety of technologies such as ReactJS, NodeJS and SQL/ NoSQL databases.</li><li>Utilized Git and AWS services, and developed RESTful APIs.</li>",
   },
   {
     title: "Machine Learning Intern",

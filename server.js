@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({extended: true}));
-mongoose.connect("mongodb+srv://romitg1998:Jk02ab@7995@cluster0.ltixng3.mongodb.net/clientDB");
+mongoose.connect("mongodb://127.0.0.1:27017/test",{useNewUrlParser: true},{useUnifiedTopology: true} );
 //create a data schema
 const notesSchema = {
       Name: String,
@@ -13,6 +13,11 @@ const notesSchema = {
 }
 
 const Note = mongoose.model("Note", notesSchema);
+
+var db = mongoose.connection;
+db.on('error',()=> console.log("Error in connecting to databse"));
+db.once('open',()=>console.log("Connected to database"));
+
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");
       })
@@ -23,8 +28,8 @@ app.post("/", function(req, res){
         Email: req.body.email,
         Message: req.body.message
       });
-      newNote.save();
-      res.redirect('/');
+      new Note.save();
+      res.redirect("/");
 
 })
 app.listen(5500, function(){
